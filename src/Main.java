@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        //Задание 1
+        // Задание 1
         System.out.println("Задание 1");
         int age = 23;
         if(age >= 2 && age <= 6) {
@@ -13,7 +13,7 @@ public class Main {
             System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить на работу");
         }
 
-        //Задание 2
+        // Задание 2
         System.out.println("Задание 2");
         if(age < 5) {
             System.out.println("Ребенок не может кататься на аттракционе");
@@ -23,25 +23,25 @@ public class Main {
             System.out.println("Ребенок может кататься без сопровождения взрослого");
         }
 
-        //Задание 3
+        // Задание 3
         System.out.println("Задание 3");
         int one = 3;
         int two = 1313;
         int three = 13;
         if(one > two) {
-            if (one >= three) {
+            if(one >= three) {
                 System.out.println("Максимальное число - " + one);
             } else {
                 System.out.println("Максимальное число - " + three);
             }
-        } else if(two > one) {
+        } else if (two > one) {
             if (one >= three) {
                 System.out.println("Максимальное число - " + two);
             } else {
                 System.out.println("Максимальное число - " + three);
             }
         } else {
-            if (one > three) {
+            if(one > three) {
                 System.out.println("Максимальное число - " + one);
             } else if (three > one) {
                 System.out.println("Максимальное число - " + three);
